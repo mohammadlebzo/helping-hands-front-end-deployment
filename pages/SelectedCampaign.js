@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { useAuth } from "../contexts/Auth";
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function SelectedCampaign() {
   const router = useRouter();
@@ -30,7 +30,7 @@ export default function SelectedCampaign() {
         <div class="container px-5 py-24   flex flex-col">
           <div class="border mx-4">
             <div class="rounded-lg h-64 overflow-hidden">
-              <Image
+              <img
                 alt="content"
                 class="object-cover object-center h-60 w-full border "
                 src="https://cdn.pixabay.com/photo/2017/09/08/18/54/volunteers-2729723_960_720.jpg"

@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap'
 import PostInput from "./PostInput";
 import { useRouter } from "next/router";
-import Image from "next/image"
+// import Image from "next/image"
 import Link from "next/link"
 
 
@@ -105,7 +105,7 @@ export default function MyPosts() {
                 <div class="rounded-3xl overflow-hidden shadow-xl w-auto my-3  bg-gradient-to-t from-blue-400 via-blue-200 to-white  ">
                   <div class="flex justify-center mt-10">
                     {/* image here is a link from google  */}
-                    <Image src="https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?pid=ImageDet&rs=1" class="rounded-full border-solid border-white border-2 -mt-3 w-32 h-32" />
+                    <img src="https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?pid=ImageDet&rs=1" class="rounded-full border-solid border-white border-2 -mt-3 w-32 h-32" />
                   </div>
                   <div class="text-center px-3 pb-6 pt-2 ">
 
@@ -150,7 +150,7 @@ export default function MyPosts() {
                   return (
                     <div key={item.id} class="flex w-full py-4 border-b border-gray-300">
                       <span class="flex-shrink-0 w-10 h-10 bg-gray-400 rounded-full">
-                        <Image src="/image/hand-13.jpg"></Image>
+                        <img src="/image/hand-13.jpg"></img>
                       </span>
                       <div class="flex flex-col flex-grow ml-2">
                         <div
@@ -181,7 +181,7 @@ export default function MyPosts() {
                   return (
                     <div key={item.id} class="flex w-full py-4 border-b border-gray-300">
                       <span class="flex-shrink-0 w-10 h-10 bg-gray-400 rounded-full">
-                        <Image src="/image/hand-13.jpg"></Image>
+                        <img src="/image/hand-13.jpg"></img>
                       </span>
                       <div class="flex flex-col flex-grow ml-2">
                         <div class="flex text-sm">

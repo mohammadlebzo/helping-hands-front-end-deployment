@@ -1,4 +1,4 @@
-import Image from "next/image"
+// import Image from "next/image"
 import useSWR from "swr";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -245,8 +245,8 @@ export default function Campaigns() {
                 key={campaign.id}
               >
                 <a href="#">
-                  <Image src={"/image/hand-13.jpg"} alt="pic"></Image>
-                  {/* <Image src={campaign.image} alt="pic"></Image> */}
+                  <img src={"/image/hand-13.jpg"} alt="pic"></img>
+                  {/* <img src={campaign.image} alt="pic"></img> */}
                 </a>
 
                 <div class="p-5">
@@ -295,7 +295,7 @@ export default function Campaigns() {
                   <section class="px-4 py-2 mt-2">
                     <div class="flex items-center justify-between">
                       <div class="flex items-center flex-1">
-                        <Image
+                        <img
                           class="object-cover h-10 rounded-full"
                           src="https://thumbs.dreamstime.com/b/default-avatar-photo-placeholder-profile-icon-eps-file-easy-to-edit-default-avatar-photo-placeholder-profile-icon-124557887.jpg"
                           alt="Avatar"

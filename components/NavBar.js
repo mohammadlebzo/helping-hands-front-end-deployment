@@ -41,11 +41,11 @@ export default function Header(props) {
       <nav className="bg-gradient-to-r from-white via-blue-200 to-white-200 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a href="/" className="flex items-center">
-            <Image
+            <img
               src="\image\hand-13.jpg"
               className="h-6 mr-3 sm:h-9"
               alt="Flowbite Logo"
-            ></Image>
+            ></img>
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Helping Hands
             </span>

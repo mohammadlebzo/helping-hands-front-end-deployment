@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <footer class="text-black-600 body-font bg-gradient-to-r from-white via-blue-200 to-white-200">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a href="/" class="flex items-center mb-4 sm:mb-0">
-            <Image
+            <img
               src="/image/hand-13.jpg"
               class="mr-3 h-8"
               alt="Helping Hands Logo"

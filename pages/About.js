@@ -1,6 +1,6 @@
 import FAQ from "../components/FAQ";
 import Head from "next/head";
-import Image from "next/image"
+// import Image from "next/image"
 import { bodyStreamToNodeStream } from "next/dist/server/body-streams";
 
 export default function About() {
@@ -31,17 +31,17 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <Image
+            <img
               className="w-45 h-72"
               src="/image/about.jpg"
               alt="about image"
-            ></Image>
+            ></img>
 
-            <Image
+            <img
               class="w-45 w-45 h-72"
               src="/image/about2.jpg"
               alt="dashboard image"
-            ></Image>
+            ></img>
 
             <div class="p-4 md:w-1/2 w-full">
               <div class="h-full bg-gray-100 p-8 rounded">
