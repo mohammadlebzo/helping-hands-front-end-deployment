@@ -1,0 +1,144 @@
+[
+    {
+        "id": 1,
+        "campaign": {
+            "id": 1,
+            "organizer": {
+                "id": 1,
+                "first_name": "testing",
+                "last_name": "test",
+                "email": "admin@admin.com",
+                "phone": "165484894564",
+                "image": "image/card.jpg"
+            },
+            "category": {
+                "id": 2,
+                "title": "cat2"
+            },
+            "location": {
+                "id": 3,
+                "city_name": "loc3"
+            },
+            "title": "camp1",
+            "description": "testing",
+            "date": "2022-09-10",
+            "available_sets": 22,
+            "image": "image/card.jpg"
+        },
+        "member": 1
+    },
+    {
+        "id": 3,
+        "campaign": {
+            "id": 1,
+            "organizer": {
+                "id": 1,
+                "first_name": "testing",
+                "last_name": "test",
+                "email": "admin@admin.com",
+                "phone": "165484894564",
+                "image": "image/card.jpg"
+            },
+            "category": {
+                "id": 2,
+                "title": "cat2"
+            },
+            "location": {
+                "id": 3,
+                "city_name": "loc3"
+            },
+            "title": "camp1",
+            "description": "testing",
+            "date": "2022-09-10",
+            "available_sets": 22,
+            "image": "image/card.jpg"
+        },
+        "member": 1
+    },
+    {
+        "id": 4,
+        "campaign": {
+            "id": 2,
+            "organizer": {
+                "id": 1,
+                "first_name": "testing",
+                "last_name": "test",
+                "email": "admin@admin.com",
+                "phone": "165484894564",
+                "image": "image/card.jpg"
+            },
+            "category": {
+                "id": 3,
+                "title": "cat3"
+            },
+            "location": {
+                "id": 1,
+                "city_name": "loc1"
+            },
+            "title": "camp2",
+            "description": "jsldfjsdf",
+            "date": "2022-09-10",
+            "available_sets": 17,
+            "image": "image/card.jpg"
+        },
+        "member": 1
+    },
+    {
+        "id": 5,
+        "campaign": {
+            "id": 2,
+            "organizer": {
+                "id": 1,
+                "first_name": "testing",
+                "last_name": "test",
+                "email": "admin@admin.com",
+                "phone": "165484894564",
+                "image": "image/card.jpg"
+            },
+            "category": {
+                "id": 3,
+                "title": "cat3"
+            },
+            "location": {
+                "id": 1,
+                "city_name": "loc1"
+            },
+            "title": "camp2",
+            "description": "jsldfjsdf",
+            "date": "2022-09-10",
+            "available_sets": 17,
+            "image": "image/card.jpg"
+        },
+        "member": 1
+    }
+    ,
+    {
+        "id": 7,
+        "campaign": {
+            "id": 10,
+            "organizer": {
+                "id": 10,
+                "first_name": "testing",
+                "last_name": "test",
+                "email": "admin@admin.com",
+                "phone": "165484894564",
+                "image": "image/card.jpg"
+            },
+            "category": {
+                "id": 10,
+                "title": "cat3"
+            },
+            "location": {
+                "id": 10,
+                "city_name": "loc1"
+            },
+            "title": "camp2",
+            "description": "jsldfjsdf",
+            "date": "2022-09-10",
+            "available_sets": 17,
+            "image": "image/card.jpg"
+        },
+        "member": 1
+    }
+    
+]
